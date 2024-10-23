@@ -6,21 +6,51 @@ content='''
 <head>
 <title> My Web Server</title>
 </head>
-<body>
-
-    <table border=5>
+<body align="center">
+    <h1>MY LAPTOP CONFIGURATION</h1>
+<table border="5" cellbadding="100" width="50%" align="center">
         <tr>
             <th>Configuration</th>
             <th>Description</th>
         </tr>
         <tr>
             <td>Processor</td>
-            <td>I5</td>
+            <td>12th Gen Intel(R) Core(TM) i5-12450HX        2.40 GHz 
+            </td>
         </tr>
         <tr>
             <td>Primary Memory</td>
-            <td>16 GB RAM</td>
+            <td>12 GB RAM</td>
         </tr>
+        <tr>
+            <td>system type</td>
+            <td>64-bit operating system, x64-based processor</td>
+        </tr>
+        <tr>
+            <td>Dedicated Graphic Memory Capacity
+            </td>
+            <td>4 GB</td>
+        </tr>
+        <tr>
+            <td>SSD Capacity
+            </td>
+            <td>512 GB</td>
+        </tr>
+        <tr>
+            <td>Graphic Processor</td>
+            <td>NVIDIA GeForce RTX 2050</td>
+        </tr>
+        <tr>
+            <td>Clock Speed
+            </td>
+            <td>Upto 4.4 GHz</td>
+        </tr>
+        <tr>
+            <td>Screen Type</td>
+            <td>Full HD, IPS, 300nits, Anti-glare, 100% sRGB, 144Hz Refresh Rate, G-SYNC
+            </td>
+        </tr>
+        
         
     </table>
 </body>
