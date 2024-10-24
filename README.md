@@ -20,7 +20,8 @@ Serving the HTML pages.
 ### Step 5:
 Testing the webserver.
 
-## PROGRAM:from http.server import HTTPServer,BaseHTTPRequestHandler
+## PROGRAM:
+from http.server import HTTPServer,BaseHTTPRequestHandler
 
 content='''
 <!doctype html>
@@ -78,7 +79,6 @@ content='''
 </body>
 </html>
 '''
-
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
         print("Get request received...")
