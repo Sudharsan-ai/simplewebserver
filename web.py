@@ -37,8 +37,8 @@ content='''
             <td>512 GB</td>
         </tr>
         <tr>
-            <td>Graphic Processor</td>
-            <td>NVIDIA GeForce RTX 2050</td>
+            <td>Primary Memory</td>
+            <td>12 GB RAM</td>
         </tr>
         <tr>
             <td>Clock Speed
@@ -47,7 +47,7 @@ content='''
         </tr>
         <tr>
             <td>Screen Type</td>
-            <td>Full HD, IPS, 300nits, Anti-glare, 100% sRGB, 144Hz Refresh Rate, G-SYNC
+            <td>ull HD, IPS, 300nits, Anti-glare, 100% sRGB, 144Hz Refresh Rate, G-SYNC
             </td>
         </tr>
         
