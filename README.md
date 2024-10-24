@@ -72,7 +72,7 @@ content='''
         </tr>
         <tr>
             <td>Screen Type</td>
-            <td>ull HD, IPS, 300nits, Anti-glare, 100% sRGB, 144Hz Refresh Rate, G-SYNC
+            <td>full HD, IPS, 300nits, Anti-glare, 100% sRGB, 144Hz Refresh Rate, G-SYNC
             </td>
         </tr>
         
