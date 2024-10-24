@@ -20,10 +20,7 @@ Serving the HTML pages.
 ### Step 5:
 Testing the webserver.
 
-## PROGRAM:
-"""
-
-from http.server import HTTPServer,BaseHTTPRequestHandler
+## PROGRAM:from http.server import HTTPServer,BaseHTTPRequestHandler
 
 content='''
 <!doctype html>
@@ -95,7 +92,6 @@ server_address =('',8000)
 httpd = HTTPServer(server_address,MyServer)
 httpd.serve_forever()
 
-"""
 ## OUTPUT:
 ![alt text](<Screenshot 2024-10-24 162611.png>)
 ![alt text](<Screenshot 2024-10-24 163905.png>)
