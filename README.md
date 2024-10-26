@@ -90,10 +90,10 @@ print("Your web server is running....")
 server_address =('',8000)
 httpd = HTTPServer(server_address,MyServer)
 httpd.serve_forever()
-
+```
 ## OUTPUT:
 ![alt text](<Screenshot 2024-10-24 162611.png>)
 ![alt text](<Screenshot 2024-10-24 163905.png>)
-```
+
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
