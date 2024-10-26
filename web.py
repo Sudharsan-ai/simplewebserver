@@ -50,7 +50,6 @@ content="""
             <td>Full HD, IPS, 300nits, Anti-glare, 100% sRGB, 144Hz Refresh Rate, G-SYNC
             </td>
         </tr>
-        
     </table>
 </body>
 </html>
