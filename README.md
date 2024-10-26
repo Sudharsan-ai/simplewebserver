@@ -21,10 +21,10 @@ Serving the HTML pages.
 Testing the webserver.
 
 ## PROGRAM:
-"""
+
 from http.server import HTTPServer,BaseHTTPRequestHandler
 
-
+content='''
 <!doctype html>
 <html>
 <head>
@@ -77,6 +77,7 @@ from http.server import HTTPServer,BaseHTTPRequestHandler
     </table>
 </body>
 </html>
+'''
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
         print("Get request received...")
@@ -89,7 +90,7 @@ print("Your web server is running....")
 server_address =('',8000)
 httpd = HTTPServer(server_address,MyServer)
 httpd.serve_forever()
-"""
+
 ## OUTPUT:
 ![alt text](<Screenshot 2024-10-24 162611.png>)
 ![alt text](<Screenshot 2024-10-24 163905.png>)
